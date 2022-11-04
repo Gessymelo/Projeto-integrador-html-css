@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:ital@0;1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    background: #EBEBEB;
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    background: #21272B;
+    position: relative;
+    width: 980px;
+    height: 95px;
+    left: 200px;
+    top: 0px;
+}
+.logo_iate{
+    position: absolute;
+    width: 41px;
+    height: 55px;
+    left: 20px;
+    top: 20px;
+}
+.luxo{
+position: absolute;
+width: 60px;
+height: 29px;
+left: 65px;
+top: 25px;
+font-family: 'Istok Web';
+font-style: italic;
+font-weight: 400;
+font-size: 20px;
+line-height: 29px;
+color: #1BB4E8;
+}
+.aluguel{
+    position: absolute;
+    width: 132px;
+    height: 29px;
+    left: 65px;
+    top: 50px;
+    color: #FFFFFF;
+    font-family: 'Istok Web';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 29px;
+}
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+    flex-direction: row;
+    width: 55px;
+    margin-left: 30px;
+    left: 350px;
+    top: 10px;
+    
+    
+}
+.menu{list-style-type:none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    position: absolute;
+    top: 50px;
+    right: 5px;
+      
+}
+.menu li{
+    display: inline-block; 
+    font-family: 'Istok Web'; 
+    font-size: 14px;
+    padding-left: 20px;
+    border-right: 1px solid #FFFFFF;      
+}
+.menu li a{
+    display:line block; 
+    color: #FFFFFF;
+    padding: 10px ;
+    text-decoration: none;
+    border-right: none; 
+    align-items: baseline;
+}
+.menu li a:hover:not(.menu) {
+    color: #1BB4E8;
+}
+.conteudo{
+    position: absolute;
+    width: 980px;
+    height: 1215px;
+    left: 200px;
+    top: 95px;
+    background: #FFFFFF;
+}
+.conteudo-principal-escrito-1{
+position: absolute;
+width: 416px;
+height: 220px;
+left: 518px;
+top: 211px;
+background: #21272B;
+mix-blend-mode:hard-light;
+}
+.conteudo-principal-escrito-titulo{
+    position: absolute;
+width: 342px;
+height: 72px;
+left: 35px;
+top: 36px;
+
+font-family: 'Istok Web';
+font-style: italic;
+font-weight: 400;
+font-size: 25px;
+line-height: 36px;
+color: #FFFFFF;
+    
+}
+.imagem-conteudo-principal{
+    position: absolute;
+ width: 20px;
+height: 30px;
+left: 35px;
+top: 130px;
+}
+.conteudo-pricipal-subtitulo{
+    position: absolute;
+width: 255px;
+height: 44px;
+left: 74px;
+top: 125px;
+font-family: 'Istok Web';
+font-style: italic;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+color: #FFFFFF;
+}
+.tel{
+    position: absolute;
+    width: 255px;
+    height: 44px;
+    left: 63px;
+    top: 23px;
+    font-family: 'Istok Web';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color:#dfaa37
+}
+.conteudo-2{
+    position: absolute;
+width: 457px;
+height: 427px;
+left: 56px;
+top: 503px;
+background: #FFFFFF;
+
+display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
