@@ -9,6 +9,8 @@
 body{
     font-size: 100%;
     background: #EBEBEB;
+    overflow-x: hidden;
+    
 }
 .cabecalho{
     display: flex;
@@ -19,7 +21,7 @@ body{
     background: #21272B;
     position: relative;
     width: 980px;
-    height: 95px;
+    height: 80px;
     left: 200px;
     top: 0px;
 }
@@ -60,8 +62,8 @@ color: #1BB4E8;
     display: flex;
     gap: 32px;
     flex-direction: row;
-    width: 55px;
-    margin-left: 30px;
+    width: 100px;
+    margin-left: 10px;
     left: 350px;
     top: 10px;
     
@@ -74,32 +76,39 @@ color: #1BB4E8;
     position: absolute;
     top: 50px;
     right: 5px;
-      
+    
 }
 .menu li{
     display: inline-block; 
     font-family: 'Istok Web'; 
     font-size: 14px;
     padding-left: 20px;
-    border-right: 1px solid #FFFFFF;      
+    margin-left: 3px;
+         
 }
 .menu li a{
     display:line block; 
     color: #FFFFFF;
     padding: 10px ;
+    text-align: justify;
     text-decoration: none;
-    border-right: none; 
-    align-items: baseline;
+   
+    
 }
 .menu li a:hover:not(.menu) {
     color: #1BB4E8;
+
 }
+.item-menu{
+    text-align: center;
+    border-right: solid 1px #FFFFFF;
+    }
 .conteudo{
     position: absolute;
     width: 980px;
-    height: 1215px;
+    height: 1110px;
     left: 200px;
-    top: 95px;
+    top: 80px;
     background: #FFFFFF;
 }
 .conteudo-principal-escrito-1{
@@ -159,16 +168,101 @@ color: #FFFFFF;
     line-height: 22px;
     color:#dfaa37
 }
+
+
 .conteudo-2{
     position: absolute;
-width: 457px;
-height: 427px;
-left: 56px;
-top: 503px;
-background: #FFFFFF;
-
-display: flex;
+    top: 510px;
+    width: 460px;
+    left: 24px;
+    padding: 10px;
+    height: 490px;
+   }
+#conteudo-secundario{
+    background-color: #1BB4E8;
+    display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
+    justify-content: flex-start;
+    align-items: baseline;
 }
+.titulo-secundario{
+    position: absolute;
+    color: #FFFFFF;
+    font-family: 'Istok Web';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    top: 20px;
+    left: 55px;
+}
+
+.conteudo-secundario-escrito{font-family: 'Istok Web';
+font-style: italic;
+font-weight: 400;
+font-size: 20px;
+line-height: 22px;
+position: relative;
+top:20px
+}
+.conteudo-terciario-escrito h6{
+    font-size: 20px;
+}
+.conteudo-terciario-escrito h4{
+    font-size: 20px;
+}
+.p{font-family: 'Istok Web';
+    font-style: normal;
+    font-size: 20px;
+}
+
+.conteudo-3{position: absolute;
+    top: 510px;
+    width: 460px;
+    padding: 10px;
+    right: 12px;
+    height:490px ;
+}
+#conteudo-terciario{background-color: #C6B07F;
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    color: #FFFFFF;
+    font-family: 'Istok Web';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    top: 20px;
+    left: 55px;
+}
+.titulo-terciario{position: absolute;
+    color: #FFFFFF;
+    font-family: 'Istok Web';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    top: 20px;
+    left: 56px;
+
+}
+.conteudo-terciario-escrito{font-family: 'Istok Web';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    position: relative;
+    top:20px
+}
+
+.rodape{background: #EBEBEB;
+    background-blend-mode: darken;
+    mix-blend-mode: multiply;
+    position: relative;
+    padding: 15px;
+    top: 1055px;
+    height:55px
+    
+  }
+  .conteudo-rodape{
+    position: relative;
+    left: 230px;
+  }
