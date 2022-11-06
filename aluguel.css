@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:ital@0;1&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: #EBEBEB;
+    border-radius: 10px;
+    min-width: 280px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 10px;
+    padding-top: 10px;
+    background: #21272B;
+    position: relative;
+    width: 980px;
+    height: 80px;
+    
+}
+
+.logo_iate {
+    position: absolute;
+    height: 55px;
+    left: 20px;
+    top: 10px;
+}
+
+.luxo {
+    position: absolute;
+    width: 60px;
+    height: 29px;
+    left: 76px;
+    top: 10px;
+    font-family: 'Istok Web';
+    font-style: italic;
+    color: #1BB4E8;
+    font-weight: 400;
+    font-size: 20px;
+    
+}
+
+.aluguel {
+    position: absolute;
+    width: 152px;
+    height: 30px;
+    left: 75px;
+    top: 35px;
+    color: #FFFFFF;
+    font-family: 'Istok Web';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+    flex-direction: row;
+   }
+
+.menu {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    position: absolute;
+    top: 45px;
+    right: 5px;
+    text-align: center;
+}
+
+.menu li {
+    display: inline-block;
+    font-family: 'Istok Web';
+    font-size: 14px;
+}
+
+.menu li a {
+    display: line block;
+    color: #FFFFFF;
+    padding-right: 20px;
+    padding-left: 16px;
+    text-decoration: none;
+}
+
+.menu li a:hover:not(.menu) {
+    color: #1BB4E8;
+}
+
+.item-menu {
+    text-align: center;
+    border-right: solid 1px #d8d7d7;
+}
+.conteudo {
+    position: absolute;
+    width: 980px;
+    height: 1110px;
+    top: 80px;
+    background: #FFFFFF;
+}
+.titulo{
+    background-color: #1BB4E8;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 20px;
+    padding-top: 10px;
+    margin-top: 90px;
+    font-family: 'Istok Web';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 15px;
+ line-height: 20px;
+}
+.conteudo-botao{
+    padding-left: 19px;
+    padding-top: 100px;
+        display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    transition-duration: 0.4s;
+  cursor: pointer;
+  
+}
+
+.barco1{
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    color: black; 
+    
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 40px;
+}
+
+.barco1 p{
+    text-align: justify;
+    padding-left: 35px;
+    padding-top: 5px;
+     margin-bottom: 15px;
+}
+
+.barco1:hover {
+    background-color: #1BB4E8;
+    color: #EBEBEB;
+   transform: scale(0.9);
+}
+
+.barco2{
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    color: black; 
+    
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 40px;
+}
+
+.barco2 p{
+    text-align: justify;
+    padding-left: 35px;
+    padding-top: 5px;
+     margin-bottom: 15px;
+}
+
+.barco2:hover {
+    background-color: #1BB4E8;
+    color: #EBEBEB;
+   transform: scale(0.9);
+}
+
+
+.barco3{
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    color: black; 
+    
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 40px;
+}
+
+.barco3 p{
+    text-align: justify;
+    padding-left: 35px;
+    padding-top: 5px;
+     margin-bottom: 15px;
+}
+
+.barco3:hover {
+    background-color: #1BB4E8;
+    color: #EBEBEB;
+   transform: scale(0.9);
+}
+
+
+.barco4{
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    color: black; 
+    
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 40px;
+}
+
+.barco4 p{
+    text-align: justify;
+    padding-left: 35px;
+    padding-top: 5px;
+     margin-bottom: 15px;
+}
+
+.barco4:hover {
+    background-color: #1BB4E8;
+    color: #EBEBEB;
+   transform: scale(0.9);
+}
+
+.rodape {
+    background: #EBEBEB;
+    background-blend-mode: darken;
+    mix-blend-mode: multiply;
+    position: relative;
+    width: 983px;
+    height: 55px;
+    top: 1055px;
+    padding: 15px;
+}
