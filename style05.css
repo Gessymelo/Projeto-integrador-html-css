@@ -125,7 +125,7 @@ body {
     font-family: 'Istok Web';
     font-style: normal;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 19px;
     line-height: 20px;
 }
 
@@ -143,98 +143,108 @@ body {
     margin-top: 90px;
     text-align: center;
 }
+
 .conteudo-botao {
     padding-left: 19px;
     padding-top: 25px;
     display: flex;
     flex-wrap: wrap;
-    gap: 10px ;
+    gap: 10px;
     justify-content: center;
     cursor: pointer;
 }
-.botao-01{
+
+.botao-01 {
     border: none;
     text-align: center;
     text-decoration: none;
     all: unset;
-  cursor: pointer;
-  outline: revert;
-    }
-  .texto-botao1{
+    cursor: pointer;
+    outline: revert;
+}
+
+.texto-botao1 {
     position: relative;
     color: #f6f2f2;
     left: 25px;
     height: 40px;
     top: -65px;
-  }
-  .botao-01:hover {
-    -ms-transform: scale(1.0); 
-  -webkit-transform: scale(0.9)
-    
 }
-.botao-02{
+
+.botao-01:hover {
+    -ms-transform: scale(1.0);
+    -webkit-transform: scale(0.9)
+}
+
+.botao-02 {
     border: none;
     text-align: center;
     text-decoration: none;
     all: unset;
-  cursor: pointer;
-  outline: revert;
-  
-  }
-  .texto-botao2{
+    cursor: pointer;
+    outline: revert;
+
+}
+
+.texto-botao2 {
     position: relative;
     color: #f6f2f2;
     left: 25px;
     height: 40px;
     top: -65px;
-  }
-  .botao-02:hover {
-    -ms-transform: scale(0.3); 
-  -webkit-transform: scale(0.9)
-    
 }
-.botao-03{
+
+.botao-02:hover {
+    -ms-transform: scale(0.3);
+    -webkit-transform: scale(0.9)
+}
+
+.botao-03 {
     border: none;
     text-align: center;
     text-decoration: none;
     all: unset;
-  cursor: pointer;
-  outline: revert;
-  position: relative;
-  top: -50px;
-  
-  }
-  .texto-botao3{
+    cursor: pointer;
+    outline: revert;
+    position: relative;
+    top: -50px;
+
+}
+
+.texto-botao3 {
     position: relative;
     color: #f6f2f2;
     left: 25px;
     height: 40px;
     top: -65px;
-  }
-  .botao-03:hover {
-    -ms-transform: scale(1.0); 
-  -webkit-transform: scale(0.9)
-    
 }
-.botao-04{
+
+.botao-03:hover {
+    -ms-transform: scale(1.0);
+    -webkit-transform: scale(0.9)
+}
+
+.botao-04 {
     border: none;
     text-align: center;
     text-decoration: none;
     all: unset;
-  cursor: pointer;
-  outline: revert;
-  
-  }
-  .texto-botao4{
+    cursor: pointer;
+    outline: revert;
+
+}
+
+.texto-botao4 {
     position: relative;
     color: #f6f2f2;
     left: 25px;
     height: 40px;
-    }
-  .botao-04:hover {
-    -ms-transform: scale(1.0); 
-  -webkit-transform: scale(0.9)
-  }
+}
+
+.botao-04:hover {
+    -ms-transform: scale(1.0);
+    -webkit-transform: scale(0.9)
+}
 
 
 .rodape {
