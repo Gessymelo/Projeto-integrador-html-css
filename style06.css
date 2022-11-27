@@ -25,9 +25,8 @@ body {
     padding-top: 10px;
     background: #21272B;
     position: relative;
-    width: 980px;
+    width: 979px;
     height: 80px;
-
 }
 
 .logo_iate {
@@ -55,8 +54,8 @@ body {
     position: absolute;
     width: 152px;
     height: 30px;
-    left: 75px;
-    top: 35px;
+    margin-right: 37em;
+    margin-top: 1em;
     color: #FFFFFF;
     font-family: 'Istok Web';
     font-style: italic;
@@ -104,20 +103,120 @@ body {
     text-align: center;
     border-right: solid 1px #d8d7d7;
 }
+
 .conteudo {
     position: absolute;
-    width: 980px;
-    height: 1110px;
+    width: 979px;
+    height: 1195%;
+    left: 1px;
     top: 80px;
     background: #FFFFFF;
 }
+
+#imgprincipal {
+    position: relative;
+    left: -4px;
+}
+
+.titulo {
+    color: #FFFFFF;
+    position: absolute;
+    margin-top: -10%;
+    margin-left: 39%;
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 72px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+h2{
+    position:absolute;
+    margin-top: 3%;
+    margin-left: 37px;
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 19px
+}
+.texto1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    gap:20px;
+    width: 900px;
+    height: 235px;
+    margin-left: 4%;
+    margin-top: 6%;
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19px
+   }
+    
+  h3{position:absolute;
+    margin-top: 34%;
+    margin-left: 360px;
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 19px
+
+  } 
+   .texto2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    gap:20px;
+    width: 900px;
+    height: 235px;
+    margin-left: 4%;
+    margin-top:32%;
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19px
+   }
+   .texto3{
+    
+    position: absolute;
+    gap:20px;
+     width: 900px;
+    height: 235px;
+    margin-left: 4%;
+    margin-top:55%;
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19px
+   }
+   h4{
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 19px
+   }
+
 .rodape {
     background: #EBEBEB;
     background-blend-mode: darken;
     mix-blend-mode: multiply;
     position: relative;
-    width: 983px;
-    height: 55px;
-    top: 1055px;
+    width: 1388px;
+    height: 50px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: 200%;
     padding: 15px;
 }
