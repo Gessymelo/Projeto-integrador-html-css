@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  input[type=text], select, textarea {
+    position: static;
+    margin-left: 10px;
+    width: 98%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    margin-left: 10px;
+  }
+   
+  /* botao limpa */
+.btn-btn-limpa{
+    position: absolute;
+    border: none;
+    margin-top: 5%;
+    margin-left: 8%;
+    color: white;
+    width: 9em;
+    height: 3em;
+    line-height: 1em;
+    text-align: center;    
+    background-color: #828382;
+  background-size: 300%;
+  border-radius: 30px;
+  text-transform: uppercase;
+  cursor: pointer;
+  z-index: 1;
+  
+}
+.btn-btn-limpa:hover{
+    animation: animation 8x linear infinite;
+    border: none;
+}
+@keyframes animation {
+    0%{background-position: 0%;}
+    100%{background-position: 400%;}
+}
+.btn-btn-limpa:before{
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    background: linear-gradient(#d5dfd5, #929792);
+    background-size: 400%;
+    border-radius: 35px;
+    transition: 1s;
+}
+.btn-btn-limpa:hover::before{
+    filter: blur(20px);
+}
+
+/* botao enviar */
+.btn-btn-primary{
+    position: absolute;
+    border: none;
+    margin-top: 5%;
+    margin-left: 80%;
+    color: white;
+    width: 9em;
+    height: 3em;
+    line-height: 1em;
+    text-align: center;    
+    background-color: #4CAF50;
+  background-size: 300%;
+  border-radius: 30px;
+  text-transform: uppercase;
+  cursor: pointer;
+  z-index: 1;
+  
+}
+.btn-btn-primary:hover{
+    animation: animation 8x linear infinite;
+    border: none;
+}
+@keyframes animation {
+    0%{background-position: 0%;}
+    100%{background-position: 400%;}
+}
+.btn-btn-primary:before{
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    background: linear-gradient(#74b076, #66c66a);
+    background-size: 400%;
+    border-radius: 35px;
+    transition: 1s;
+}
+.btn-btn-primary:hover::before{
+    filter: blur(20px);
+}
+
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+     }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
