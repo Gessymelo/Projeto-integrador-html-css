@@ -12,7 +12,7 @@ body {
     background: #EBEBEB;
     border-radius: 10px;
     min-width: 280px;
-    max-width: 800px;
+    max-width: 1000px;
     margin: auto;
 }
 
@@ -108,7 +108,7 @@ body {
 .conteudo {
     position: absolute;
     width: 980px;
-    height: 1110px;
+    height: 1120px;
     top: 80px;
     background: #FFFFFF;
 }
@@ -154,76 +154,9 @@ body {
     cursor: pointer;
 }
 
-.botao-01 {
-    border: none;
-    text-align: center;
-    text-decoration: none;
-    all: unset;
-    cursor: pointer;
-    outline: revert;
-}
-
-.texto-botao1 {
-    position: relative;
-    color: #f6f2f2;
-    left: 25px;
-    height: 40px;
-    top: -65px;
-}
-
-.botao-01:hover {
-    -ms-transform: scale(1.0);
-    -webkit-transform: scale(0.9)
-}
-
-.botao-02 {
-    border: none;
-    text-align: center;
-    text-decoration: none;
-    all: unset;
-    cursor: pointer;
-    outline: revert;
-
-}
-
-.texto-botao2 {
-    position: relative;
-    color: #f6f2f2;
-    left: 25px;
-    height: 40px;
-    top: -65px;
-}
-
-.botao-02:hover {
-    -ms-transform: scale(0.3);
-    -webkit-transform: scale(0.9)
-}
-
-.botao-03 {
-    border: none;
-    text-align: center;
-    text-decoration: none;
-    all: unset;
-    cursor: pointer;
-    outline: revert;
-    position: relative;
-    top: -50px;
-
-}
-
-.texto-botao3 {
-    position: relative;
-    color: #f6f2f2;
-    left: 25px;
-    height: 40px;
-    top: -65px;
-}
-
-.botao-03:hover {
-    -ms-transform: scale(1.0);
-    -webkit-transform: scale(0.9)
-}
-
+.botao-01,
+.botao-02,
+.botao-03,
 .botao-04 {
     border: none;
     text-align: center;
@@ -231,29 +164,34 @@ body {
     all: unset;
     cursor: pointer;
     outline: revert;
-
 }
 
+.texto-botao1,
+.texto-botao2,
+.texto-botao3,
 .texto-botao4 {
     position: relative;
     color: #f6f2f2;
     left: 25px;
     height: 40px;
+    top: -65px;
 }
 
+.botao-01:hover,
+.botao-02:hover,
+.botao-03:hover,
 .botao-04:hover {
     -ms-transform: scale(1.0);
     -webkit-transform: scale(0.9)
 }
-
 
 .rodape {
     background: #EBEBEB;
     background-blend-mode: darken;
     mix-blend-mode: multiply;
     position: relative;
-    width: 983px;
-    height: 55px;
-    top: 1055px;
-    padding: 15px;
+    width: 988px;
+    height: 40px;
+    top: 1080px;
+    padding: 10px;
 }
